@@ -1,0 +1,155 @@
+*{
+    overflow-x: hidden;
+
+}
+
+body{
+    width:100%;
+}
+.navbar{
+    height: 180px;
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center stretch;
+    width: 100%;
+    overflow: hidden;
+}
+
+#home{
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.typewriter h2{
+    font-size: 1.8rem;
+
+}
+
+@media (max-width:725px){
+    .typewriter h2{
+        font-size: 28px;
+        width: 100%;
+    }
+}
+
+.btn-main{
+    font-size: 20px;
+    margin-top: 20px;
+    width: 80%;
+}
+
+#book-type{
+    display: flex;
+    flex-direction: column;
+}
+
+#sale h1{
+    font-size: 10px;
+    overflow: visible;
+}
+
+#service{
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+}
+
+#abt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#blo{
+   display: flex;
+   flex-direction: column;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.primary{
+    font-size: 1rem;
+}
+
+#form{
+    margin: 20px auto;
+    width: 70%;
+}
+
+.text{
+    width: 70%;
+    overflow-x: visible;
+    font-size: 10px;
+}
+
+#area{
+    font-size: 10px;
+    width: 70%; 
+    overflow-x: visible;
+}
+
+.ctn{
+    width: 90%;
+    margin: auto;
+}
+
+#review{
+    width: 100%;
+}
+
+.feed{
+    display: flex;
+    flex-direction: column;
+}
+
+#fo{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+#fo img{
+    width: 90px;
+    height: 90px;
+    margin-top: 0px;
+}
+
+#fee{
+    margin: 20px;
+    overflow-x: visible;
+    content: none;
+}
+
+#fee{
+    font-size: 15px;
+    visibility: hidden;
+    position: relative;
+}
+
+#fee::after{
+    visibility: visible;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    content: "Your happy smiles are what keeps us motivated";
+}
+
+
+
+
+
+
+
+
+
+
